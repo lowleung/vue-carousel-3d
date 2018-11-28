@@ -337,10 +337,12 @@
 
                 if (this.dragOffset > this.minSwipeDistance) {
                     this.handleMouseup()
-                    this.goNext()
+                    // this.goNext()
+                    this.goPrev()
                 } else if (this.dragOffset < -this.minSwipeDistance) {
                     this.handleMouseup()
-                    this.goPrev()
+                    // this.goPrev()
+                    this.goNext()
                 }
             },
             /**
